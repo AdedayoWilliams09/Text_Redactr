@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Redactor</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      
+      <h1>Text Redactor</h1>
+      
+      <textarea
+        id="textArea"
+        placeholder="Enter the text you want to redact"
+      ></textarea>
+      <input
+        type="text"
+        id="redactWords"
+        placeholder="Enter words to redact (separated by space)"
+      />
+      <input
+        type="text"
+        id="replacement"
+        placeholder="Replacement (default is ****)"
+      />
+      <button id="redactButton">Redact Now</button>
+      <div id="redactedText"></div>
+      <div id="statistics"></div>
+    </div>
+    <footer>&copy; Adedayo Williams DCTP 2023</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
